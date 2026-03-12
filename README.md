@@ -67,6 +67,16 @@ Open Claude Desktop settings > "Developer" tab > "Edit Config".
 }
 ```
 
+### Codex
+
+```bash
+codex mcp add ecomail --env ECOMAIL_API_KEY=your_api_key -- npx -y ecomail-mcp
+```
+
+### Codex Desktop
+
+If you use the Codex desktop app, add the MCP server from your terminal with the Codex CLI, then restart the app
+
 ### Options
 
 - `--key`: Your Ecomail API key (alternative to `ECOMAIL_API_KEY` env var)
